@@ -1,4 +1,5 @@
 // app.js
+console.log('loaded app.js');
 var routerApp = angular.module('routerApp', ['ui.router']);
 
 routerApp.config(function ($stateProvider, $urlRouterProvider) {
