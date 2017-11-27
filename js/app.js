@@ -25,7 +25,7 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
     // nested list with just some random string data
     .state('home.paragraph', {
       url: '/paragraph',
-      template: 'I could sure use a drink right now.'
+      template: '<h2>I could sure use a drink right now.</h2>'
     })
 
     // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
