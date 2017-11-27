@@ -1,13 +1,15 @@
-<table>
-    <thead>
-        <tr>
-            <th>name</th>
-            <th>price</th>
-        </tr>
-    </thead>
-    <tbody ng-repeat="scotch in scotches">
-<tr>
-    <td>{{scotch.name}}</td>
-</tr>
-    </tbody>
+<h2>Fine scotches</h2>
+<table.table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>price</th>
+    </tr>
+  </thead>
+  <tbody ng-repeat="scotch in scotches">
+    <tr>
+      <td>{{scotch.name}}</td>
+      <td>{{scotch.price}}</td>
+    </tr>
+  </tbody>
 </table>
